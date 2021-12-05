@@ -10,5 +10,7 @@ function aboutMe(lastName, firstName, middleName) {
 
 
 
-  document.getElementById("about__me").innerHTML;
-  console.log(about__me);
+const bodyElement = document.body;
+const firstChildNode = document.querySelectorAll('li');
+console.log(bodyElement);
+console.log(firstChildNode);
