@@ -1,0 +1,11 @@
+const newP = document.createElement('p');
+newP.className = 'text';
+newP.innerHTML = 'Это всего лишь текст';
+document.body.append(newP);
+const divAlert = document.createElement('div');
+divAlert.className = 'alert';
+divAlert.innerHTML = 'А это сообщение об ошибке';
+divAlert.style.backgroundColor = 'red';
+divAlert.style.color = 'white';
+divAlert.style.padding = '20px';
+document.body.append(divAlert);
